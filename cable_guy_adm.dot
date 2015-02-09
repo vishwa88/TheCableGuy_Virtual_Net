@@ -1,0 +1,12 @@
+graph G {
+    node [shape=record];
+    graph [hostidtype="hostname", version="1:0", date="04/12/2013"];
+    edge [dir=none, len=1, headport=center, tailport=center];
+    //"s1":"eth2" -- "s2":"eth2";
+    //"s2":"eth3" -- "s3":"eth2";
+    //"s4":"eth4" -- "s3":"eth3";
+    "s1":"sweth2" -- "s2":"sweth2";
+    "s2":"sweth3" -- "s3":"sweth2";
+    "s4":"sweth4" -- "s3":"sweth3";
+    "s5":"sweth4" -- "s6":"sweth3";
+}
